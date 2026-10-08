@@ -1,0 +1,37 @@
+
+dc3dd 7.3.1-dirty started at 2026-10-06 09:14:10 +0700
+compiled options:
+command line dc3dd if=/dev/sdb of=evidence_drive.raw hash=sha256 log=acquisition.log
+device size: 500118192 sectors (probed),   256,060,514,304 bytes
+sector size: 512 bytes (probed)
+ 57258835968 bytes ( 53 G ) copied ( 22% ), 791.749 s, 69 M/s
+
+input results for device `/dev/sdb':
+   111833664 sectors in
+   0 bad sectors replaced by zeros
+   971224b2c722471cf2bf1ceae6706a00a891731dcd864759ef84045a2c59ceb9 (sha256)
+
+output results for file `evidence_drive.raw':
+   111833664 sectors out
+
+dc3dd aborted at 2026-10-06 09:27:22 +0700
+
+
+dc3dd 7.3.1-dirty started at 2026-10-06 10:14:29 +0700
+compiled options:
+command line dc3dd if=/dev/sdb of=evidence_drive.raw hash=sha256 hash=md5 log=acquisition.log
+device size: 500118192 sectors (probed),   256,060,514,304 bytes
+sector size: 512 bytes (probed)
+256060514304 bytes ( 238 G ) copied ( 100% ), 9861.77 s, 25 M/s
+
+input results for device `/dev/sdb':
+   500118192 sectors in
+   0 bad sectors replaced by zeros
+   f432a58dc47b4c117cd61b0dd8af9c1f (md5)
+   4b97fb660ad278153c8cf313936a884f4a76db4ca3869822d554e2fe6cb96f62 (sha256)
+
+output results for file `evidence_drive.raw':
+   500118192 sectors out
+
+dc3dd completed at 2026-10-06 12:58:51 +0700
+
