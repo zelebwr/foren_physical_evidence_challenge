@@ -1,0 +1,19 @@
+
+dc3dd 7.3.1-dirty started at 2026-10-05 10:03:21 +0700
+compiled options:
+command line dc3dd if=/dev/sdb1 of=/mnt/data/workspace/01_projects/foren_physical_evidence_challenge/team4/dd_team4.dd hash=sha256 hash=md5 log=/mnt/data/workspace/01_projects/foren_physical_evidence_challenge/team4/team4_log.log
+device size: 15633376 sectors (probed),    8,004,288,512 bytes
+sector size: 512 bytes (probed)
+  8004288512 bytes ( 7.5 G ) copied ( 100% ), 681.948 s, 11 M/s
+
+input results for device `/dev/sdb1':
+   15633376 sectors in
+   0 bad sectors replaced by zeros
+   1573c2bec4729872175b15921dd66117 (md5)
+   3b6a244c6dd991fe49fe23844973bd294a6dd2eecaa930d37a94eadd11ff79d6 (sha256)
+
+output results for file `/mnt/data/workspace/01_projects/foren_physical_evidence_challenge/team4/dd_team4.dd':
+   15633376 sectors out
+
+dc3dd completed at 2026-10-05 10:14:43 +0700
+
