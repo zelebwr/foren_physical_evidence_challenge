@@ -1,0 +1,1 @@
+dd_team4.dd: DOS/MBR boot sector, code offset 0x58+2, OEM-ID "MSDOS5.0", sectors/cluster 8, reserved sectors 2298, Media descriptor 0xf8, sectors/track 63, heads 255, hidden sectors 32, sectors 15633376 (volumes > 32 MB), FAT (32 bit), sectors/FAT 15235, reserved 0x1, serial number 0x92918358, unlabeled
